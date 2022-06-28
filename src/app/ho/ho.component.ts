@@ -19,7 +19,7 @@ import {
   templateUrl: './ho.component.html',
 })
 export class HoComponent implements OnInit {
-  public data$?: Observable<HoData>;
+  protected data$?: Observable<HoData>;
 
   constructor(public hoService: HoService) {}
 
